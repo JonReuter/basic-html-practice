@@ -1,53 +1,41 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header style="background-color: #C1C1C1;">
-      <section>
-        <a href="#"><img src="./left.png" alt="left" style="width: 50px;"/></a>
-        <a href="#"
-          ><img src="./right.png" alt="right" style="width: 50px;"
-        /></a>
-        <a href="#"
-          ><img
-            src="./cancel.png"
-            alt="cancel"
-            style="width: 30px; margin-bottom: 6px;"
-        /></a>
-        <a href="#"><img src="./house.png" alt="home" style="width: 50px;"/></a>
-      </section>
-    </header>
 
-    <input
-      type="text"
-      style="width: 44%;
-    margin-bottom: 10px;
-    position: absolute;
-    top: 3%;
-    left: 26%;
-    height: 30px;"
-    />
-    <div
-      style="position: absolute;
-    top: 4%;
-    left: 87%;
-    border-radius: 10px;
-    height: 22px;"
-    >
-      <input
-        type="image"
-        src="./searchIcon.png"
-        alt="Search"
-        style="width: 11px;
-        position: absolute;
-        top: 5px;
-        left: 6px;"
-      />
-      <input type="search" />
-    </div>
-  </body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles\style.css">
+    <title>Basic HTML Practice</title>
+   </head>
+   <body>
+      <header style= "background-color: darkgray;">
+        <h2>My Webpage</h2>
+        <buttons>
+          <a href="#">
+            <img src="img/left.png"
+                 alt="left button">
+          </a>
+          <a href="#">
+              <img src="img/right.png"
+                   alt="right button" >
+            </a>
+            <a href="#">
+                <img src="img/house.png"
+                     alt="home button">
+              </a>
+              <a href="#">
+                  <img src="img/cancel.png"
+                       alt="cancel button">
+                </a>
+        </buttons>
+        <bars>
+          <addressBar class="addressBar">
+            <input type="text">
+          </addressBar>
+          <search class="searchBar"> 
+            <input type="text">
+          </search>
+        </bars>
+        
+      </header>
+   </body>
 </html>
